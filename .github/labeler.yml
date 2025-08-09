@@ -1,0 +1,8 @@
+area/learning-paths:
+- changed-files:
+  - any-glob-to-any-file:
+    - "content/en/learning-paths/**/*"
+area/challenges:
+- changed-files:
+  - any-glob-to-any-file:
+    - "content/en/challenges/**/*"

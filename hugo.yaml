@@ -1,0 +1,13 @@
+baseURL: http://localhost:9876/academy/
+title: Example Academy
+canonifyurls: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.146.0
+  imports:
+
+    # used to source the base theme for academy.
+    - path: github.com/layer5io/academy-theme
+      disable: false
