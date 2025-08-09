@@ -1,6 +1,5 @@
 
-# Layer5 Academy - Content Starter Template
-
+# Digital Ocean Academy 
 This repository is a starter template for creating custom learning paths and courses on the [Layer5 Academy](https://cloud.layer5.io/academy/overview). It provides the necessary file structure and a working example to help you get started quickly.
 
 This guide will walk you through setting up your own content repository, creating courses, and previewing them locally.
@@ -130,3 +129,4 @@ Once your content is complete and tested locally:
 3.  Provide the URL to your content repository.
 
 A Layer5 administrator will then integrate your repository into the main Academy platform. After integration, your learning paths will be visible on the official [Layer5 Cloud site](https://cloud.layer5.io/academy/overview).
+
