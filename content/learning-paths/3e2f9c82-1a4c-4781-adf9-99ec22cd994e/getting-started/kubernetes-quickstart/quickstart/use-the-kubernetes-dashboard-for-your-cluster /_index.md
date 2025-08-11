@@ -3,7 +3,7 @@ type: "page"
 id: "use-the-kubernetes-dashboard-for-your-cluster"
 description: ""
 title: "Use the Kubernetes Dashboard for Your Cluster "
-weight: 2
+weight: 3
 ---
 The Kubernetes Dashboard provides a web-based user interface where you can deploy containerized applications, troubleshoot your application, manage your cluster resources (such as Deployments, Jobs, DaemonSets, etc), get an overview of applications running on your cluster, initiate a rolling update, restart a pod, and more.
 

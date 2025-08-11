@@ -3,7 +3,7 @@ type: "page"
 id: "destroy-clusters "
 description: ""
 title: "Destroy Clusters"
-weight: 2
+weight: 6
 ---
 To delete an entire cluster:
 

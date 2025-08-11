@@ -3,7 +3,7 @@ type: "page"
 id: "configure-wildcard-certs"
 description: ""
 title: "DOKS Operational Readiness, Part 3: Configure Wildcard Certificates"
-weight: 2
+weight: 3
 ---
 
 In the previous part of the tutorial series, you installed an NGINX Ingress Controller and configured the backend services. nginx comes with self-signed TLS certificates. For live environments, you may want to enable nginx to use production-ready TLS certificates for the backend services and automatically configure TLS certificates for your hosts. In this tutorial, the certificate issuer uses the [DNS-01 challenge](https://letsencrypt.org/docs/challenge-types/#dns-01-challenge) which supports wildcard certificates. A wildcard certificate is able to handle sub-domains as well and has global scope for the whole DNS domain you own. If you want to use HTTPS instead, you need to set up the [HTTP-01 challenge](https://letsencrypt.org/docs/challenge-types/#http-01-challenge), as described in [Set Up NGINX Ingress Controller with HTTPS Enabled](https://docs.digitalocean.com/products/kubernetes/getting-started/operational-readiness/enable-https/).

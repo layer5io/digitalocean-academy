@@ -3,7 +3,7 @@ type: "page"
 id: "recycle-nodes"
 description: ""
 title: "Recycle Nodes"
-weight: 2
+weight: 5
 ---
 
 If a worker node isn’t functioning properly, you can destroy and replace it with a new node of the same type with the Recycle option.

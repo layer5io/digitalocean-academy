@@ -3,7 +3,7 @@ type: "page"
 id: "install-nginx-ingress-controller"
 description: ""
 title: "DOKS Operational Readiness, Part 1: Install the NGINX Ingress Controller"
-weight: 2
+weight: 1
 ---
 
 In this part of the tutorial series, you learn how to install the NGINX Ingress Controller [1-Click App](https://docs.digitalocean.com/products/kubernetes/how-to/manage-1click-apps/), automatically deploy and configure TLS certificates for your hosts, and route traffic to your backend applications. You can find the manifests used in this tutorial in the [Kubernetes-Starter-Kit-Developers GitHub repository](https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/tree/main/03-setup-ingress-controller/assets/manifests/nginx).

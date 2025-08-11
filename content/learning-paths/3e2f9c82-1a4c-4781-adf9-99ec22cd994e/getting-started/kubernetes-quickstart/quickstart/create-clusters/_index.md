@@ -3,7 +3,7 @@ type: "page"
 id: "create-clusters"
 description: ""
 title: "Create Clusters"
-weight: 2
+weight: 1
 ---
 
 To create a Kubernetes cluster:

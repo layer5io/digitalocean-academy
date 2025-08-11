@@ -3,7 +3,7 @@ type: "page"
 id: "edit-nodes-and-node-pools-for-an-existing-cluster"
 description: ""
 title: "Edit Nodes and Node Pools for an Existing Cluster "
-weight: 2
+weight: 4
 ---
 
 You can create additional node pools and add and remove nodes from a node pool at any time.

@@ -3,7 +3,7 @@ type: "page"
 id: "overview"
 description: ""
 title: "Overview"
-weight: 2
+weight: 1
 ---
 
 You can set up a variety of tools to make your DigitalOcean Kubernetes (DOKS) cluster operationally ready. Your operationally-ready DOKS cluster can have a set up as shown below, which includes:
