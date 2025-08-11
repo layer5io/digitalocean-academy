@@ -42,7 +42,7 @@ jobs:
         uses: layer5io/academy-build@v0.1.3
         with:
           orgId: ${{ github.event.inputs.orgId || secrets.ACADEMY_ORG_ID }}
-          token: ${{ github.event.inputs.token || secrets.ACADEMY_TOKEN }}
+          token: ${{ github.event.inputs.token || secrets.PROVIDER_TOKEN }}
           version: ${{ github.event.inputs.version != '' && github.event.inputs.version || github.ref_name }}
 
       - name: Show response
