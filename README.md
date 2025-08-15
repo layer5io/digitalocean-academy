@@ -23,6 +23,7 @@
 
 - [meshery/meshery](https://github.com/meshery/meshery) – Meshery core project
 - [meshery-extensions/meshery-academy](https://github.com/meshery-extensions/meshery-academy)
+- [meshery-extensions/digitalocean-academy](https://github.com/meshery-extensions/digitalocean-academy)
 - [layer5io/academy-theme](https://github.com/layer5io/academy-theme) – provides styles, Hugo shortcodes, and layouts
 - [layer5io/academy-build](https://github.com/layer5io/academy-build) – build pipeline that aggregates this and other academies for publishing
   
