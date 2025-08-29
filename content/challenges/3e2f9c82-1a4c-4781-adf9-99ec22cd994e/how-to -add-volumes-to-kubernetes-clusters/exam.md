@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Volumes Challenge Exam"
-passing_percentage: 70
+pass_percentage: 70
 type: "test"
 questions:
   - id: "q1"
