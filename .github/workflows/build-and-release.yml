@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Hugo Extended
         uses: peaceiris/actions-hugo@v2
@@ -37,7 +37,7 @@ jobs:
       - name: Run production build test
         run: make build
 
-      - name: Publish to layer5 academy
+      - name: Publish to Cloud Academy
         id: academy
         uses: layer5io/academy-build@v0.1.3
         with:
