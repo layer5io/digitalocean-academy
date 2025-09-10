@@ -43,7 +43,7 @@ jobs:
 
       - name: Publish to Cloud Academy
         id: academy
-        uses: layer5io/academy-build@v0.1.5
+        uses: layer5io/academy-build@v0.1.6
         with:
           orgId: ${{ github.event.inputs.orgId || secrets.ACADEMY_ORG_ID }}
           token: ${{ github.event.inputs.token || secrets.PROVIDER_TOKEN }}
