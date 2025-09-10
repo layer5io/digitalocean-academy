@@ -7,7 +7,7 @@ title: Academy
 
 {{% blocks/lead color="primary" %}}
 
-[LearningPaths](https://cloud.layer5.io/academy/learning-paths)  
+[Learning Paths](https://cloud.layer5.io/academy/learning-paths)  
 
 [Challenge](https://cloud.layer5.io/academy/challenges)  
   
