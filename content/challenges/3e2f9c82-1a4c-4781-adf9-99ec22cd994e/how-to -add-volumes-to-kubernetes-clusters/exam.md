@@ -126,7 +126,7 @@ questions:
 
   - id: "q8"
     text: "What happens if you delete a deployment in Kubernetes without removing its associated PVCs? Will the data in your volume be **preserved** or **deleted**? (Instructions: Provide a brief explanation, including one and only one of the bold keywords.)"
-    type: "short_answer"
+    type: "short-answer"
     marks: 2
     #correct_answer: "The PVCs remain and must be manually deleted using `kubectl delete pvc`."
     correct_answer: "preserved"
@@ -158,7 +158,7 @@ questions:
 
   - id: "q11"
     text: "What is the valid range for the storage size of a DigitalOcean volume in a Kubernetes cluster?"
-    type: "short_answer"
+    type: "short-answer"
     marks: 2
     correct_answer: "1 GB to 10,000 GB"
 
@@ -184,13 +184,13 @@ questions:
 
   - id: "q13"
     text: "What command can you use to resize a volume by editing its PVC?"
-    type: "short_answer"
+    type: "short-answer"
     marks: 2
     correct_answer: "kubectl edit pvc <pvc-name>"
 
   - id: "q14"
     text: "Why might a PVC deletion stall or fail in a Kubernetes cluster?"
-    type: "short_answer"
+    type: "short-answer"
     marks: 5
     correct_answer: "fail"
     #correct_answer: "A PVC deletion may stall or fail if the associated volume is deleted manually before the PVC API object is removed using `kubectl`. This creates an inconsistent state where the PVC is still referenced but the underlying volume no longer exists. To resolve this, you can list volume attachments with `kubectl get volumeattachments`, describe the attachment with `kubectl describe volumeattachments <volume-name>`, edit it to remove the `external-attacher` finalizer, and then delete the PVC with `kubectl delete pvc <pvc-name>`."
@@ -216,7 +216,7 @@ questions:
 
   - id: "q16"
     text: "What is the default filesystem owner of a volume in DigitalOcean Kubernetes?"
-    type: "short_answer"
+    type: "short-answer"
     marks: 2
     correct_answer: "root"
 
@@ -242,7 +242,7 @@ questions:
 
   - id: "q18"
     text: "What command lists the persistent volumes associated with a Kubernetes cluster?"
-    type: "short_answer"
+    type: "short-answer"
     marks: 2
     correct_answer: "kubectl get pv"
 
