@@ -1,4 +1,5 @@
 
+
 # Digital Ocean Academy 
 See the currently published content - https://cloud.layer5.io/academy?orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
 
@@ -131,5 +132,6 @@ Once your content is complete and tested locally:
 3.  Provide the URL to your content repository.
 
 A Layer5 administrator will then integrate your repository into the main Academy platform. After integration, your learning paths will be visible on the official [Layer5 Cloud site](https://cloud.layer5.io/academy/overview).
+
 
 
