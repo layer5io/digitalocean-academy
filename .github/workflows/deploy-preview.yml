@@ -41,10 +41,18 @@ jobs:
         run: sudo snap install dart-sass
 
       - name: Checkout
+        if: github.event.action != 'closed'
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           submodules: recursive
+          fetch-depth: 0
+
+      - name: Checkout for cleanup
+        if: github.event.action == 'closed'
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
           fetch-depth: 0
 
       - name: Install Node.js dependencies
