@@ -96,11 +96,7 @@ jobs:
         with:
           header: pr-preview
           message: |
-            🚀 **Preview deployment for PR #${{ github.event.pull_request.number }}**
-            
-            🌐 **Preview URL**: ${{ steps.deploy-preview.outputs.preview-url }}
-            
-            _This preview will be updated automatically when you push new commits to this PR._
+            🚀 Preview deployment: ${{ steps.deploy-preview.outputs.preview-url }}
 
       - name: Cleanup PR Preview on Close
         if: github.event.action == 'closed'
