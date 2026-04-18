@@ -97,6 +97,7 @@ jobs:
           header: pr-preview
           message: |
             🚀 Preview deployment: ${{ steps.deploy-preview.outputs.preview-url }}
+            > *Note: Preview may take a moment (GitHub Pages deployment in progress). Please wait and refresh. Track deployment [here](https://github.com/${{ github.repository }}/actions/workflows/pages/pages-build-deployment)*
 
       - name: Cleanup PR Preview on Close
         if: github.event.action == 'closed'
