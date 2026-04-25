@@ -2,6 +2,10 @@ baseURL: http://localhost:9876/academy/
 title: Example Academy
 canonifyurls: true
 
+params:
+  academy:
+    domain: cloud.meshery.io
+
 module:
   hugoVersion:
     extended: true
