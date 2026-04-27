@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academy on Example Academy</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/</link><description>Recent content in Academy on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Add Volumes to Kubernetes Clusters</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service offering a fully managed control plane, high availability, and autoscaling. DOKS integrates seamlessly with standard Kubernetes toolchains, DigitalOcean’s load balancers, volumes, CPU and GPU Droplets, API, and CLI.&lt;/p&gt;
+&lt;p&gt;When you need to manage persistent data in a Kubernetes cluster, you can use DigitalOcean Volumes Block Storage by creating a PersistentVolumeClaim (PVC) as part of your deployment. This guide explains how to add volumes to your cluster using the Kubernetes command-line tool, &lt;code&gt;kubectl&lt;/code&gt;. For more details on &lt;code&gt;kubectl&lt;/code&gt;, see the &lt;a href="https://kubernetes.io/docs/reference/kubectl/overview/"&gt;Overview of kubectl&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Instructor Toolkit</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/instructor-toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/instructor-toolkit/</guid><description>&lt;section class="academy-toolkit academy-toolkit--ready"&gt;
+ &lt;header class="academy-toolkit__header"&gt;
+ &lt;h2&gt;ID Validation&lt;/h2&gt;
+ &lt;/header&gt;
+
+ &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--good"&gt;&lt;em&gt;Ready to publish to the Academy.&lt;/em&gt;&lt;/p&gt;&lt;p class="academy-toolkit__summary academy-toolkit__summary--good"&gt;
+ &lt;strong&gt;All publishable content IDs are registered.&lt;/strong&gt;
+ &lt;/p&gt;&lt;p class="academy-toolkit__legend"&gt;
+ &lt;span&gt;⚠️ Draft page: Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;❌ Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;✅ Content ID is registered.&lt;/span&gt;
+ &lt;/p&gt;&lt;table class="academy-toolkit__table"&gt;
+ &lt;colgroup&gt;
+ &lt;col class="academy-toolkit__col-page"&gt;
+ &lt;col class="academy-toolkit__col-draft"&gt;
+ &lt;col class="academy-toolkit__col-id"&gt;
+ &lt;col class="academy-toolkit__col-status"&gt;
+ &lt;/colgroup&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th scope="col"&gt;Page&lt;/th&gt;
+ &lt;th scope="col"&gt;Draft&lt;/th&gt;
+ &lt;th scope="col"&gt;Content ID&lt;/th&gt;
+ &lt;th scope="col"&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://cloud.meshery.io/academy/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/getting-started/"&gt;Getting Started &lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;e37015d1-db1a-4964-999e-0a3d852e9e34&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://cloud.meshery.io/academy/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/"&gt;How to Add Volumes to Kubernetes Clusters&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;d20c1248-edda-45ed-9f93-c408b113e7d8&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;&lt;/section&gt;
+
+&lt;style&gt;
+ .academy-toolkit {
+ max-width: 960px;
+ margin-top: 1.5rem;
+ color: #182126;
+ }
+
+ .academy-toolkit__header {
+ margin-bottom: 0.75rem;
+ }
+
+ .academy-toolkit h2 {
+ margin: 0;
+ font-size: 1.45rem;
+ }
+
+ .academy-toolkit__empty {
+ margin: 0;
+ color: #52616b;
+ }
+
+ .academy-toolkit__summary-row {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.75rem 1rem;
+ align-items: center;
+ margin-bottom: 0.75rem;
+ }
+
+ .academy-toolkit__summary {
+ display: inline-flex;
+ align-items: center;
+ margin: 0;
+ }
+
+ .academy-toolkit__legend {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.5rem 1.25rem;
+ margin: 0 0 0.75rem;
+ color: #52616b;
+ font-size: 0.95rem;
+ }
+
+ .academy-toolkit__legend span {
+ white-space: nowrap;
+ }
+
+ .academy-toolkit__draft-note {
+ margin: 0 0 0.75rem;
+ color: #52616b;
+ font-style: italic;
+ }
+
+ .academy-toolkit__action {
+ margin: 0 0 0.75rem;
+ color: #52616b;
+ }
+
+ .academy-toolkit__verdict {
+ margin: 0.9rem 0 0;
+ font-weight: 700;
+ }
+
+ .academy-toolkit__table {
+ width: 100%;
+ border-collapse: collapse;
+ }
+
+ .academy-toolkit__table th:nth-child(3),
+ .academy-toolkit__table td:nth-child(3) {
+ padding-right: 4rem !important; 
+ }
+
+ .academy-toolkit__col-draft {
+ width: 10%;
+ }
+
+ .academy-toolkit__table th,
+ .academy-toolkit__table td {
+ padding: 0.55rem 0.75rem;
+ text-align: left;
+ vertical-align: top;
+ }
+
+ .academy-toolkit__table thead th {
+ color: #52616b;
+ font-size: 0.85rem;
+ font-weight: 700;
+ }
+
+ .academy-toolkit__table tbody th {
+ font-weight: 500;
+ }
+
+ .academy-toolkit__table tbody th a {
+ color: inherit;
+ font-weight: inherit;
+ text-decoration: none;
+ }
+
+ .academy-toolkit__table tbody th a:hover,
+ .academy-toolkit__table tbody th a:focus {
+ text-decoration: underline;
+ }
+
+ .academy-toolkit__table tbody td {
+ color: #52616b;
+ }
+
+ .academy-toolkit__table tbody td:last-child {
+ white-space: nowrap;
+ }
+&lt;/style&gt;</description></item><item><title>Kubernetes Volumes Challenge Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-34/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/exam/</guid><description/></item></channel></rss>
