@@ -79,6 +79,34 @@ A high-level view of the structure looks like this:
   - **Add your lessons** as Markdown (`.md`) files inside the `content` directory of a course.
   - **Use frontmatter** at the top of your `_index.md` and lesson files to define titles, descriptions, and weights.
 
+### Add Assessments
+
+Assessment files use the Academy test layout and define their questions in Markdown frontmatter. Use short, stable IDs for questions and options; question IDs must be unique within one assessment, and option IDs must be unique within one question. The Academy theme converts these author-facing IDs into deterministic UUIDs in the generated JSON consumed by Layer5 Cloud.
+
+```yaml
+---
+title: "Assessment Example"
+id: "assessment-example"
+type: "test"
+layout: "test"
+passPercentage: 70
+maxAttempts: 3
+timeLimit: 30
+numberOfQuestions: 1
+questions:
+  - id: "q1"
+    text: "DigitalOcean Academy content is authored in Markdown."
+    type: "true-false"
+    marks: 1
+    options:
+      - id: "true"
+        text: "True"
+        isCorrect: true
+      - id: "false"
+        text: "False"
+---
+```
+
 ### 5. Add Assets (Images & Videos)
 
 Enhance your course with images and other visual aids. To ensure compatibility with the multi-tenant Academy platform, **do not use standard Markdown image links**. Instead, use the `usestatic` shortcode, which generates the correct, tenant-aware path for your assets.
