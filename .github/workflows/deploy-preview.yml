@@ -114,9 +114,9 @@ jobs:
             while IFS= read -r preview; do
               timestamp="$(git log -1 --format=%ct -- "pr-preview/$preview" 2>/dev/null || echo 0)"
               printf '%s %s\n' "$timestamp" "$preview"
-            done < <(
-              find pr-preview -mindepth 1 -maxdepth 1 -type d -name 'pr-*' -printf '%f\n'
-            ) | sort -nr | awk '{print $2}'
+            done < <(find pr-preview -mindepth 1 -maxdepth 1 -type d -name 'pr-*' -printf '%f\n') \
+              | sort -nr \
+              | awk '{print $2}'
           )
 
           if (( ${#previews[@]} <= PREVIEW_RETENTION_LIMIT )); then
@@ -130,19 +130,20 @@ jobs:
           done
 
           if git diff --quiet -- pr-preview; then
+            echo "removed_prs=" >> "$GITHUB_OUTPUT"
             echo "removed_prs_json=[]" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add pr-preview
           git commit -m "Prune old PR previews"
           git push
 
+          echo "removed_prs=$(IFS=,; echo "${removed_prs[*]}")" >> "$GITHUB_OUTPUT"
           echo "removed_prs_json=$(printf '%s\n' "${removed_prs[@]}" | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
-
+          
       - name: Comment PR with Preview URL
         if: github.event.action != 'closed'
         uses: marocchino/sticky-pull-request-comment@v2
