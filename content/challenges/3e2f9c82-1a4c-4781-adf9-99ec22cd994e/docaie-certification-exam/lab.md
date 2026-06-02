@@ -6,7 +6,9 @@ title: "DO-CAIE Capstone & Certification"
 
 ## Introduction
 
-This is the capstone for the **DigitalOcean Certified AI Engineer (DO-CAIE)** credential. It brings
+This is the capstone for the
+[**DigitalOcean Certified AI Engineer (DO-CAIE)**](https://cloud.layer5.io/academy/certifications/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/digitalocean-certified-ai-engineer/)
+credential. It brings
 together everything in the academy: building a grounded agent on the
 [Gradient AI Platform](https://docs.digitalocean.com/products/gradient-ai-platform/), serving a model
 on GPU infrastructure, and operating it all with [Meshery](https://meshery.io/). You must pass both
