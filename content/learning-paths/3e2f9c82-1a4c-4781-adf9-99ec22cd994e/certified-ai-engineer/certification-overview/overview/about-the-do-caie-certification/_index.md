@@ -11,6 +11,11 @@ DigitalOcean Academy. It validates that you can design, build, serve, operate, a
 production AI applications on DigitalOcean's AI-Native Cloud — and that you can manage the
 underlying cloud native infrastructure with [Meshery](https://meshery.io/).
 
+> **This path is the study guide for the credential.** For the official competency blueprint,
+> prerequisites, and exam policies, see the
+> [DigitalOcean Certified AI Engineer (DO-CAIE) certification](https://cloud.layer5.io/academy/certifications/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/digitalocean-certified-ai-engineer/),
+> and take the [DO-CAIE Certification Exam](https://cloud.layer5.io/academy/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/) when you are ready.
+
 ## Who it is for
 
 - **AI/ML engineers** building agentic and retrieval-augmented applications on the
