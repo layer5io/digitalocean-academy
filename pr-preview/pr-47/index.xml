@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academy on Example Academy</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/</link><description>Recent content in Academy on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/index.xml" rel="self" type="application/rss+xml"/><item><title>Build a RAG Agent with Knowledge Bases</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/build-a-rag-agent-with-knowledge-bases/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/build-a-rag-agent-with-knowledge-bases/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this challenge you will build a &lt;strong&gt;retrieval-augmented (RAG)&lt;/strong&gt; agent on the
+&lt;a href="https://docs.digitalocean.com/products/gradient-ai-platform/"&gt;DigitalOcean Gradient AI Platform&lt;/a&gt;.
+You will create an agent, build a &lt;strong&gt;knowledge base&lt;/strong&gt; from your own data, attach it, and confirm that
+answers are grounded with &lt;strong&gt;citations&lt;/strong&gt; that trace back to your sources.&lt;/p&gt;
+&lt;p&gt;RAG lets an agent answer from private, up-to-date, domain-specific data instead of relying only on the
+base model&amp;rsquo;s training. The knowledge base handles chunking, embeddings, indexing, and retrieval for
+you.&lt;/p&gt;</description></item><item><title>Build a RAG Agent with Knowledge Bases — Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/build-a-rag-agent-with-knowledge-bases/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/build-a-rag-agent-with-knowledge-bases/exam/</guid><description/></item><item><title>Deploy an LLM on GPU Droplets</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/deploy-an-llm-on-gpu-droplets/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/deploy-an-llm-on-gpu-droplets/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this challenge you will deploy an open large language model on a
+&lt;a href="https://docs.digitalocean.com/products/gpu-droplets/"&gt;DigitalOcean GPU Droplet&lt;/a&gt; and serve it behind
+an &lt;strong&gt;OpenAI-compatible&lt;/strong&gt; API. You will use either &lt;strong&gt;1-Click Models&lt;/strong&gt; (powered by Hugging Face) for a
+zero-config path, or &lt;strong&gt;vLLM&lt;/strong&gt; for a self-hosted path. Both expose the same &lt;code&gt;/v1&lt;/code&gt; interface, so client
+code is identical.&lt;/p&gt;
+&lt;p&gt;By the end you will have created a GPU Droplet, verified the GPU, served a model, and called it from
+two clients.&lt;/p&gt;</description></item><item><title>Deploy an LLM on GPU Droplets — Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/deploy-an-llm-on-gpu-droplets/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/deploy-an-llm-on-gpu-droplets/exam/</guid><description/></item><item><title>DigitalOcean Certified AI Engineer (DO-CAIE) Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/exam/</guid><description/></item><item><title>DO-CAIE Capstone &amp; Certification</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This is the capstone for the &lt;strong&gt;DigitalOcean Certified AI Engineer (DO-CAIE)&lt;/strong&gt; credential. It brings
+together everything in the academy: building a grounded agent on the
+&lt;a href="https://docs.digitalocean.com/products/gradient-ai-platform/"&gt;Gradient AI Platform&lt;/a&gt;, serving a model
+on GPU infrastructure, and operating it all with &lt;a href="https://meshery.io/"&gt;Meshery&lt;/a&gt;. You must pass both
+this capstone (graded by rubric) and the written &lt;strong&gt;exam&lt;/strong&gt; in this challenge.&lt;/p&gt;
+
+&lt;h2 id="what-to-build" class="heading-link"&gt;
+ What to build
+ &lt;a href="#what-to-build" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Build a &lt;strong&gt;grounded, agentic application&lt;/strong&gt; and run it on infrastructure you manage with Meshery. A
+reference scenario is an internal &amp;ldquo;Docs Assistant&amp;rdquo; that answers from your documentation, escalates
+certain requests through a tool, and is served alongside a self-hosted model.&lt;/p&gt;</description></item><item><title>How to Add Volumes to Kubernetes Clusters</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service offering a fully managed control plane, high availability, and autoscaling. DOKS integrates seamlessly with standard Kubernetes toolchains, DigitalOcean’s load balancers, volumes, CPU and GPU Droplets, API, and CLI.&lt;/p&gt;
+&lt;p&gt;When you need to manage persistent data in a Kubernetes cluster, you can use DigitalOcean Volumes Block Storage by creating a PersistentVolumeClaim (PVC) as part of your deployment. This guide explains how to add volumes to your cluster using the Kubernetes command-line tool, &lt;code&gt;kubectl&lt;/code&gt;. For more details on &lt;code&gt;kubectl&lt;/code&gt;, see the &lt;a href="https://kubernetes.io/docs/reference/kubectl/overview/"&gt;Overview of kubectl&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Instructor Toolkit</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/instructor-toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/instructor-toolkit/</guid><description>&lt;section class="academy-toolkit academy-toolkit--broken"&gt;
+
+ &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--bad"&gt;Not ready to publish&lt;/p&gt;&lt;div class="academy-toolkit__summary-row"&gt;
+ &lt;p class="academy-toolkit__summary academy-toolkit__summary--bad"&gt;
+ &lt;strong&gt;10 content IDs are not registered.&lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;p class="academy-toolkit__legend"&gt;
+ &lt;span&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;⚠️&lt;/a&gt;Draft page: Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;✅ Content ID is registered.&lt;/span&gt;
+ &lt;/p&gt;&lt;table class="academy-toolkit__table"&gt;
+ &lt;colgroup&gt;
+ &lt;col class="academy-toolkit__col-page"&gt;
+ &lt;col class="academy-toolkit__col-draft"&gt;
+ &lt;col class="academy-toolkit__col-id"&gt;
+ &lt;col class="academy-toolkit__col-status"&gt;
+ &lt;/colgroup&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th scope="col"&gt;Page&lt;/th&gt;
+ &lt;th scope="col"&gt;Draft&lt;/th&gt;
+ &lt;th scope="col"&gt;Content ID&lt;/th&gt;
+ &lt;th scope="col"&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://cloud.meshery.io/academy/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/getting-started/"&gt;Getting Started &lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;e37015d1-db1a-4964-999e-0a3d852e9e34&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/ai-foundations-on-digitalocean/"&gt;AI Foundations on DigitalOcean&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;2d1af3b6-ca9a-4eea-9aa9-6961c21df0b2&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/building-agentic-ai-with-gradient/"&gt;Building Agentic AI with the Gradient AI Platform&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;9873539a-df74-49b5-9370-d29afcb94020&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/gpu-compute-and-model-serving/"&gt;GPU Compute &amp;amp; Model Serving&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;f825d879-1a16-4cb2-a441-67849e69de19&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/cloud-native-ai-with-meshery/"&gt;Cloud Native AI Infrastructure with Meshery &amp;amp; DOKS&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;83c3267b-cdb2-47fc-87cc-7e4d713eb057&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/production-ai-engineering/"&gt;Production AI Engineering &amp;amp; MLOps&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;114058e2-25c5-4e6e-8d7d-6fe5ee198f0e&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/learning-paths/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/certified-ai-engineer/"&gt;DigitalOcean Certified AI Engineer (DO-CAIE)&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;2491564d-ff90-415c-8f71-5d6dc149dd71&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/build-a-rag-agent-with-knowledge-bases/"&gt;Build a RAG Agent with Knowledge Bases&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;833186ac-b009-41eb-b49c-02d2b8de2603&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/deploy-an-llm-on-gpu-droplets/"&gt;Deploy an LLM on GPU Droplets&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;97d113d8-4137-44ae-9a5a-49627e988518&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/"&gt;DigitalOcean Certified AI Engineer (DO-CAIE) Exam&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;c468847a-77f9-4ea4-9a8f-dcc3e89f7c53&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://cloud.meshery.io/academy/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/"&gt;How to Add Volumes to Kubernetes Clusters&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;d20c1248-edda-45ed-9f93-c408b113e7d8&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/manage-a-doks-gpu-cluster-with-meshery/"&gt;Manage a DOKS GPU Cluster with Meshery&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;bab75a74-0c38-4697-a735-d3e70aef5ab4&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;&lt;p class="academy-toolkit__action"&gt;
+ Fix invalid IDs in the &lt;a href="https://cloud.meshery.io/academy/instructors-console" target="_blank" rel="noopener"&gt;Instructor Console&lt;/a&gt; using the &lt;a href="https://docs.layer5.io/cloud/academy/creating-content/instructor-console-guide/#using-the-content-creation-tool" target="_blank" rel="noopener"&gt;Content Creation tool&lt;/a&gt;.
+ &lt;/p&gt;</description></item><item><title>Kubernetes Volumes Challenge Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/how-to--add-volumes-to-kubernetes-clusters/exam/</guid><description/></item><item><title>Manage a DOKS GPU Cluster with Meshery</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/manage-a-doks-gpu-cluster-with-meshery/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/manage-a-doks-gpu-cluster-with-meshery/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this challenge you will operate AI infrastructure the cloud native way. You will use
+&lt;a href="https://meshery.io/"&gt;Meshery&lt;/a&gt; — the open-source cloud native manager — to import a
+&lt;a href="https://docs.digitalocean.com/products/kubernetes/"&gt;DigitalOcean Kubernetes (DOKS)&lt;/a&gt; GPU cluster,
+capture an LLM serving stack as a reusable &lt;strong&gt;Design&lt;/strong&gt;, deploy it, and &lt;strong&gt;performance-test&lt;/strong&gt; the
+inference endpoint with a Meshery &lt;strong&gt;Performance Profile&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This mirrors how platform teams run model serving at scale: declarative designs, real-time cluster
+visibility, and repeatable performance measurement — all from a single pane of glass.&lt;/p&gt;</description></item><item><title>Manage a DOKS GPU Cluster with Meshery — Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/manage-a-doks-gpu-cluster-with-meshery/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-47/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/manage-a-doks-gpu-cluster-with-meshery/exam/</guid><description/></item></channel></rss>
