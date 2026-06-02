@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DigitalOcean Certified AI Engineer (DO-CAIE) Exam on Example Academy</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-52/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/</link><description>Recent content in DigitalOcean Certified AI Engineer (DO-CAIE) Exam on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/digitalocean-academy/pr-preview/pr-52/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/index.xml" rel="self" type="application/rss+xml"/><item><title>DigitalOcean Certified AI Engineer (DO-CAIE) Exam</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-52/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-52/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/exam/</guid><description/></item><item><title>DO-CAIE Capstone &amp; Certification</title><link>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-52/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/digitalocean-academy/pr-preview/pr-52/challenges/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/docaie-certification-exam/lab/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
+ Introduction
+ &lt;a href="#introduction" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This is the capstone for the &lt;strong&gt;DigitalOcean Certified AI Engineer (DO-CAIE)&lt;/strong&gt; credential. It brings
+together everything in the academy: building a grounded agent on the
+&lt;a href="https://docs.digitalocean.com/products/gradient-ai-platform/"&gt;Gradient AI Platform&lt;/a&gt;, serving a model
+on GPU infrastructure, and operating it all with &lt;a href="https://meshery.io/"&gt;Meshery&lt;/a&gt;. You must pass both
+this capstone (graded by rubric) and the written &lt;strong&gt;exam&lt;/strong&gt; in this challenge.&lt;/p&gt;
+
+&lt;h2 id="what-to-build" class="heading-link"&gt;
+ What to build
+ &lt;a href="#what-to-build" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Build a &lt;strong&gt;grounded, agentic application&lt;/strong&gt; and run it on infrastructure you manage with Meshery. A
+reference scenario is an internal &amp;ldquo;Docs Assistant&amp;rdquo; that answers from your documentation, escalates
+certain requests through a tool, and is served alongside a self-hosted model.&lt;/p&gt;</description></item></channel></rss>
