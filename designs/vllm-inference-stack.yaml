@@ -1,0 +1,83 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ai-inference
+  labels:
+    app.kubernetes.io/part-of: digitalocean-academy
+    academy.do/design: vllm-inference-stack
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vllm-llama
+  namespace: ai-inference
+  labels:
+    app: vllm-llama
+    app.kubernetes.io/part-of: digitalocean-academy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vllm-llama
+  template:
+    metadata:
+      labels:
+        app: vllm-llama
+    spec:
+      # Schedule onto a DOKS GPU node pool. Label your GPU pool accordingly,
+      # e.g. `doctl kubernetes cluster node-pool create ... --label nvidia.com/gpu=true`.
+      nodeSelector:
+        nvidia.com/gpu: "true"
+      tolerations:
+        - key: nvidia.com/gpu
+          operator: Exists
+          effect: NoSchedule
+      containers:
+        - name: vllm
+          image: vllm/vllm-openai:latest
+          args:
+            - "--model"
+            - "meta-llama/Llama-3.1-8B-Instruct"
+            - "--port"
+            - "8000"
+          ports:
+            - name: http
+              containerPort: 8000
+          env:
+            # Optional: required for gated models on Hugging Face.
+            # Create the secret first:
+            #   kubectl -n ai-inference create secret generic hf-token \
+            #     --from-literal=token=<your-hf-token>
+            - name: HUGGING_FACE_HUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hf-token
+                  key: token
+                  optional: true
+          resources:
+            limits:
+              nvidia.com/gpu: "1"
+            requests:
+              nvidia.com/gpu: "1"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 60
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vllm-llama
+  namespace: ai-inference
+  labels:
+    app: vllm-llama
+spec:
+  selector:
+    app: vllm-llama
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8000
+  type: ClusterIP
