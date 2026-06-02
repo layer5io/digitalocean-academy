@@ -72,4 +72,4 @@ This returns the full list of model IDs available under your account, which you 
 
 Start with a smaller model and upgrade only if output quality is insufficient. The OpenAI-compatible interface means swapping models is a one-line change in your code.
 
-Explore the current catalog at [digitalocean.com/products/1-click-models](https://www.digitalocean.com/products/1-click-models).
+Browse the current model catalog in the Control Panel, or read the [Gradient AI Platform documentation](https://docs.digitalocean.com/products/gradient-ai-platform/) for the full list of serverless inference models.

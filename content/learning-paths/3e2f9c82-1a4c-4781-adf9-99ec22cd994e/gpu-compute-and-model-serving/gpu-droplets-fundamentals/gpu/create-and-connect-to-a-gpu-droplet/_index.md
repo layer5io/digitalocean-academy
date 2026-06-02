@@ -25,7 +25,7 @@ Install and authenticate `doctl` first:
 
 ```bash
 # Install doctl (Linux)
-snap install doctl
+sudo snap install doctl
 doctl auth init   # paste your Personal Access Token when prompted
 ```
 

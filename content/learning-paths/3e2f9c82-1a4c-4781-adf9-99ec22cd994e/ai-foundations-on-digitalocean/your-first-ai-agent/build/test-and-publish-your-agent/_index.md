@@ -69,7 +69,7 @@ Publishing makes the current version live on its endpoint:
 The agent is now live. Verify it is responding by sending a quick curl test:
 
 ```bash
-curl -s "https://<agent-id>.agents.do-ai.run/v1/chat/completions" \
+curl -s "https://<agent-id>.agents.do-ai.run/api/v1/chat/completions" \
   -H "Authorization: Bearer $DO_AGENT_KEY" \
   -H "Content-Type: application/json" \
   -d '{

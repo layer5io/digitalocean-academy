@@ -8,7 +8,7 @@ weight: 4
 
 ## How Billing Works
 
-GPU Droplets are billed per GPU per hour, rounded to the nearest hour. The clock starts when the Droplet is created and stops when it is destroyed. A powered-off (but not destroyed) Droplet still accrues charges because the underlying hardware remains reserved for you.
+GPU Droplets are billed per GPU-hour and metered by the second, so you pay only for the time the Droplet exists. The clock starts when the Droplet is created and stops when it is destroyed. A powered-off (but not destroyed) Droplet still accrues charges because the underlying hardware remains reserved for you.
 
 Indicative on-demand price ranges (check current pricing in the Control Panel):
 

@@ -28,7 +28,7 @@ Use the `openai` library and override `base_url` to point to your agent:
 import os
 from openai import OpenAI
 
-AGENT_BASE_URL = f"https://{os.environ['DO_AGENT_ID']}.agents.do-ai.run/v1"
+AGENT_BASE_URL = f"https://{os.environ['DO_AGENT_ID']}.agents.do-ai.run/api/v1"
 
 client = OpenAI(
     base_url=AGENT_BASE_URL,
@@ -68,7 +68,7 @@ For a browser-based chat widget, use the `fetch` API directly:
 ```js
 const AGENT_ID = "<your-agent-id>";
 const AGENT_KEY = "<your-agent-access-key>"; // load from env in production
-const BASE_URL = `https://${AGENT_ID}.agents.do-ai.run/v1/chat/completions`;
+const BASE_URL = `https://${AGENT_ID}.agents.do-ai.run/api/v1/chat/completions`;
 
 async function sendMessage(userText, history = []) {
   const messages = [...history, { role: "user", content: userText }];
