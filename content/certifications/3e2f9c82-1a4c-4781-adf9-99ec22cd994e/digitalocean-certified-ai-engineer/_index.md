@@ -1,8 +1,8 @@
 ---
 type: "certification"
 title: "DigitalOcean Certified AI Engineer (DO-CAIE)"
-id: "7ae5fbfe-385d-4fc5-b14a-957d71212050"
 description: "Prove you can design, build, serve, and operate production AI applications on DigitalOcean's Gradient AI Platform and AI-Native Cloud, and manage the underlying cloud native infrastructure with Meshery and DigitalOcean Kubernetes (DOKS)."
+id: "2b81f9cd-d726-4334-b3ef-23bf232fe677"
 banner: "digitalocean.svg"
 weight: 1
 level: "advanced"
