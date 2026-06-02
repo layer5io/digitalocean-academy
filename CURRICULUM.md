@@ -247,6 +247,23 @@ Each challenge ships a guided **lab** and a graded **exam** (`pass_percentage: 7
 
 ---
 
+## Importable Meshery designs
+
+The Meshery learning path and the *Manage a DOKS GPU Cluster with Meshery* challenge are backed by
+real, importable designs in the [`designs/`](./designs/) directory. Each is valid Kubernetes YAML, so
+it can be imported into Meshery (`mesheryctl design import -f <file> -s "Kubernetes Manifest"`),
+opened and validated in **Kanvas**, deployed to a DOKS GPU cluster, and saved to the Meshery Catalog
+as a reusable template — or applied directly with `kubectl`.
+
+| Design | Installs |
+|--------|----------|
+| `designs/vllm-inference-stack.yaml` | A vLLM OpenAI-compatible LLM server on a DOKS GPU node pool |
+| `designs/qdrant-vector-db.yaml` | A Qdrant vector database backed by DigitalOcean Block Storage |
+| `designs/gpu-observability-stack.yaml` | The NVIDIA DCGM exporter for GPU metrics (Prometheus/Grafana) |
+
+See [`designs/README.md`](./designs/README.md) for prerequisites and step-by-step import and
+performance-testing instructions.
+
 ## Content conventions (for contributors)
 
 Front matter by level (matches the Layer5 Academy theme):

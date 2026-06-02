@@ -70,5 +70,24 @@ A new team joining the AI platform wants to deploy a Llama 3 inference server on
 
 The same workflow that took a senior engineer a day the first time takes a new team member thirty minutes.
 
+## Try It: Import the Academy's Designs
+
+The academy ships three ready-made, importable designs you can treat as your starter catalog —
+import them, customize, and publish your own versions:
+
+| Design | Installs |
+|--------|----------|
+| [`vllm-inference-stack.yaml`](https://github.com/layer5io/digitalocean-academy/blob/master/designs/vllm-inference-stack.yaml) | A vLLM OpenAI-compatible server on a DOKS GPU node pool |
+| [`qdrant-vector-db.yaml`](https://github.com/layer5io/digitalocean-academy/blob/master/designs/qdrant-vector-db.yaml) | A Qdrant vector database backed by DigitalOcean block storage |
+| [`gpu-observability-stack.yaml`](https://github.com/layer5io/digitalocean-academy/blob/master/designs/gpu-observability-stack.yaml) | The NVIDIA DCGM exporter for GPU metrics |
+
+```bash
+mesheryctl design import \
+  -f https://raw.githubusercontent.com/layer5io/digitalocean-academy/master/designs/vllm-inference-stack.yaml \
+  -s "Kubernetes Manifest"
+```
+
+After importing, open the design in Kanvas, then **Publish to Catalog** to share it with your team.
+
 - [Meshery Designs documentation](https://docs.meshery.io/concepts/logical/designs)
 - [DOKS Kubernetes docs](https://docs.digitalocean.com/products/kubernetes/)

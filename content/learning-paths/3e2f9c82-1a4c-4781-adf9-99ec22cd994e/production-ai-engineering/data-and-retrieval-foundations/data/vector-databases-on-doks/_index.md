@@ -62,6 +62,14 @@ mesheryctl design apply -f qdrant-design.yaml \
 
 Meshery validates the Design, resolves dependencies, and applies it to the target cluster. The Design is stored in source control, making every change auditable and reversible.
 
+**Ready-made design.** The academy ships an importable Qdrant design backed by DigitalOcean Block Storage at [`designs/qdrant-vector-db.yaml`](https://github.com/layer5io/digitalocean-academy/blob/master/designs/qdrant-vector-db.yaml). Import it directly instead of writing one from scratch:
+
+```bash
+mesheryctl design import \
+  -f https://raw.githubusercontent.com/layer5io/digitalocean-academy/master/designs/qdrant-vector-db.yaml \
+  -s "Kubernetes Manifest"
+```
+
 ## Connecting Your Application
 
 Once Qdrant is running on DOKS, connect from your application using the official client:

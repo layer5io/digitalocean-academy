@@ -27,6 +27,16 @@ helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack \
 
 This installs Prometheus, Alertmanager, Grafana, and a set of default dashboards for Kubernetes infrastructure.
 
+To expose **GPU** metrics, you also need the NVIDIA DCGM exporter running on the GPU nodes. The academy ships an importable design for it at [`designs/gpu-observability-stack.yaml`](https://github.com/layer5io/digitalocean-academy/blob/master/designs/gpu-observability-stack.yaml) — import it through Meshery and deploy it to the cluster:
+
+```bash
+mesheryctl design import \
+  -f https://raw.githubusercontent.com/layer5io/digitalocean-academy/master/designs/gpu-observability-stack.yaml \
+  -s "Kubernetes Manifest"
+```
+
+The exporter publishes metrics such as `DCGM_FI_DEV_GPU_UTIL` on port 9400 for Prometheus to scrape.
+
 ## Connecting Prometheus to Meshery
 
 In the Meshery UI, navigate to **Settings → Metrics** and click **Add Prometheus**. Enter the Prometheus server URL. If Prometheus runs inside the same DOKS cluster as Meshery:

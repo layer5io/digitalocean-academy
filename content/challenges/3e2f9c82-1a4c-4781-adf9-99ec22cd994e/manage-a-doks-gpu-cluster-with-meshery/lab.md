@@ -54,6 +54,18 @@ keeps this view in sync as the cluster changes.
 
 ## Step 3 — Author an inference Design
 
+> **Shortcut:** the academy ships this exact stack as an importable design. To skip straight to
+> deploying, import it and open it in Kanvas:
+>
+> ```bash
+> mesheryctl design import \
+>   -f https://raw.githubusercontent.com/layer5io/digitalocean-academy/master/designs/vllm-inference-stack.yaml \
+>   -s "Kubernetes Manifest"
+> ```
+>
+> The companion `designs/qdrant-vector-db.yaml` and `designs/gpu-observability-stack.yaml` are
+> available the same way. To learn the authoring workflow, build it yourself below.
+
 Create a Meshery **Design** that captures a vLLM serving stack. The Deployment must request a GPU so
 the scheduler places it on the GPU node pool:
 
