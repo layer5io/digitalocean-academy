@@ -35,10 +35,10 @@
     "update:pkgs": "npx npm-check-updates -u"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.5.0",
     "cross-env": "^7.0.3",
     "hugo-extended": "0.158.0",
-    "postcss": "^8.5.12",
+    "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1",
     "rtlcss": "^4.3.0",
     "sass": "^1.98.0"
