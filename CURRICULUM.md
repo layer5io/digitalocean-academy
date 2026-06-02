@@ -27,7 +27,11 @@ their courses and chapters, the hands‑on challenges, and the **DigitalOcean Ce
 | 3 | GPU Compute & Model Serving | Intermediate–Advanced | 5 | GPU Droplets, 1‑Click Models, self‑hosting, fine‑tuning, distributed inference |
 | 4 | Cloud Native AI Infrastructure with Meshery & DOKS | Advanced | 6 | Meshery designs, GPU clusters, perf testing, GitOps, observability |
 | 5 | Production AI Engineering & MLOps | Advanced | 5 | Inference Engine/Router, data & retrieval, security, CI/CD |
-| 6 | DigitalOcean Certified AI Engineer (DO‑CAIE) | Certification | 3 | Exam blueprint, study guide, capstone |
+| 6 | DO‑CAIE Certification Prep | Certification | 3 | Exam blueprint, study guide, capstone (prep for the DO‑CAIE certification) |
+
+The **DigitalOcean Certified AI Engineer (DO‑CAIE)** itself is a first‑class `type: "certification"`
+entity in the `certifications/` section (see below) — distinct from the prep learning path that
+studies for it.
 
 **Hands‑on challenges:** 4 standalone challenges (lab + graded exam each), including the
 certification capstone exam.
@@ -209,6 +213,15 @@ ship a first managed agent.
 **Pass mark:** 70% on the written exam **and** a passing capstone submission ·
 **Recommended prep:** Learning Paths 1–5.
 
+### The certification entity
+
+The certification is a first‑class `type: "certification"` content entity at
+`content/certifications/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/digitalocean-certified-ai-engineer/`.
+It carries the competency blueprint (domains + weighting), `prerequisite_knowledge` (the learning
+paths), `related_resources` (challenges and docs), and `additional_attributes` (exam format, pass
+mark, capstone, retake policy, validity). It is **distinct from, and supported by**, the
+**DO‑CAIE Certification Prep** learning path and the **DO‑CAIE Certification Exam** challenge.
+
 ### Exam blueprint (domains & weighting)
 
 | Domain | Weight |
@@ -221,7 +234,7 @@ ship a first managed agent.
 | 6. Cloud native AI operations with Meshery & DOKS | 16% |
 | 7. Production engineering: routing, security, observability & responsible AI | 12% |
 
-### Certification learning path (content)
+### Certification prep learning path (content)
 
 1. **Certification Overview** — who it's for, format, scheduling, scoring, recertification
 2. **Exam Domains Study Guide** — domain‑by‑domain objectives mapped to learning paths and lessons
