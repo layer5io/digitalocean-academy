@@ -9,7 +9,11 @@ level: "advanced"
 certificate:
   title: "DigitalOcean Certified AI Engineer (DO-CAIE)"
   issuingAuthorities:
-    - "DigitalOcean"
-    - "Layer5"
+    - name: "DigitalOcean"
+      role: "Platform"
+      signatureUrl: "https://raw.githubusercontent.com/meshery-extensions/meshery-academy/6843c0074f73932274864aa68773ab605fd69ef3/static/c5ada327-8a58-4c8a-b9fa-51b95696488c/images/meshery-authors.png"
+    - name: "Layer5"
+      role: "Framework"
+      signatureUrl: "https://raw.githubusercontent.com/meshery-extensions/meshery-academy/6843c0074f73932274864aa68773ab605fd69ef3/static/c5ada327-8a58-4c8a-b9fa-51b95696488c/images/meshery-authors.png"
   expiresIn: "2 years"
 ---
