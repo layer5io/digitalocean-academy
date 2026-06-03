@@ -45,7 +45,9 @@ demo timestamps). This speeds review and helps you catch gaps before submitting.
 
 ## 4. Submit
 
-From the certification page, choose **Submit capstone** and provide:
+From the
+[DO-CAIE certification page](https://cloud.layer5.io/academy/certifications/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/digitalocean-certified-ai-engineer/),
+choose **Submit capstone** and provide:
 
 - the repository URL (public, or grant reviewer access),
 - the demo link,
@@ -63,5 +65,5 @@ From the certification page, choose **Submit capstone** and provide:
 - Keep the project alive: re-run Evaluations and Performance Profiles against newer models to stay
   sharp for **recertification**.
 
-Congratulations — completing the capstone is the final step toward becoming a **DigitalOcean
-Certified AI Engineer**.
+Congratulations — completing the capstone is the final step toward becoming a
+[**DigitalOcean Certified AI Engineer**](https://cloud.layer5.io/academy/certifications/3e2f9c82-1a4c-4781-adf9-99ec22cd994e/digitalocean-certified-ai-engineer/).
