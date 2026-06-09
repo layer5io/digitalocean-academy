@@ -24,14 +24,10 @@
 - [meshery/meshery](https://github.com/meshery/meshery) – Meshery core project
 - [meshery-extensions/meshery-academy](https://github.com/meshery-extensions/meshery-academy)
 - [meshery-extensions/digitalocean-academy](https://github.com/meshery-extensions/digitalocean-academy)
-- [layer5io/academy-theme](https://github.com/layer5io/academy-theme) – provides styles, Hugo shortcodes, and layouts
-- [layer5io/academy-build](https://github.com/layer5io/academy-build) – build pipeline that aggregates this and other academies for publishing
   
   ---
 
-## Digital Ocean Academy 
-See the currently published content: https://meshery-extensions/github.io/digitalocean-academy under academy orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
-
+## Meshery Academy for Digital Ocean
 This repository is a starter template for creating custom learning paths and courses using Meshery as the content authoring and delivery platform. It provides the necessary file structure and a working example to help you get started quickly.
 
 This guide will walk you through setting up your own content repository, creating courses, and previewing them locally.
@@ -56,7 +52,7 @@ First, create a copy of this repository under your own GitHub account.
     ```bash
     # Replace <your-username> with your GitHub username
     git clone https://github.com/<your-username>/digitalocean-academy.git
-    cd academy-example
+    cd digitalocean--academy
     ```
 
 ### 2. Update the Go Module Path
@@ -68,7 +64,7 @@ First, create a copy of this repository under your own GitHub account.
     ```
   - To match your repository's path:
     ```go
-    module github.com/<your-username>/academy-example
+    module github.com/<your-username>/digitalocean-academy
     ```
   - Save the file, then commit and push the change.
 
@@ -109,7 +105,7 @@ A high-level view of the structure looks like this:
 
 ### Add Assessments
 
-Assessment files use the Academy test layout and define their questions in Markdown frontmatter. Use short, stable IDs for questions and options; question IDs must be unique within one assessment, and option IDs must be unique within one question. The Academy theme converts these author-facing IDs into deterministic UUIDs in the generated JSON consumed by Layer5 Cloud.
+Assessment files use the Academy test layout and define their questions in Markdown frontmatter. Use short, stable IDs for questions and options; question IDs must be unique within one assessment, and option IDs must be unique within one question. The Academy theme converts these author-facing IDs into deterministic UUIDs in the generated JSON.
 
 ```yaml
 ---
@@ -184,3 +180,9 @@ Once your content is complete and tested locally:
 
 1.  Push all your changes to your forked repository on GitHub.
 2.  Point new learners to your repo; fork and run locally.
+
+
+<!-- ##
+
+See the currently published content: https://meshery-extensions.github.io/digitalocean-academy under academy orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
+-->
