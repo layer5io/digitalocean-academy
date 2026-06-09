@@ -1,3 +1,33 @@
+[![Meshery Academy](https://img.shields.io/badge/Meshery-Academy-00B39F?style=flat-square&logo=meshery&logoColor=white)](https://cloud.meshery.io/academy)
+
+![Meshery-Logo](.github/assets/images/meshery-logo-dark-text-side.svg)
+# Meshery Academy
+
+ Meshery Academy is the official content repository for the **Meshery** learning platform. It hosts Meshery-focused learning paths, challenges, and certifications, helping engineers learn how to manage cloud-native infrastructure with Meshery.
+
+ ---
+
+## 📚 Overview
+
+  **Role:** Primary source of official Meshery learning content
+  **Features**
+
+- Structured, production-ready reference material
+- Markdown-based authoring with live local preview
+- Runs on the shared Layer5 Academy platform
+- Supports learning paths, challenges, and certifications
+  
+   ---
+
+## 🔗 Related Repositories
+
+- [meshery/meshery](https://github.com/meshery/meshery) – Meshery core project
+- [meshery-extensions/meshery-academy](https://github.com/meshery-extensions/meshery-academy)
+- [meshery-extensions/digitalocean-academy](https://github.com/meshery-extensions/digitalocean-academy)
+- [layer5io/academy-theme](https://github.com/layer5io/academy-theme) – provides styles, Hugo shortcodes, and layouts
+- [layer5io/academy-build](https://github.com/layer5io/academy-build) – build pipeline that aggregates this and other academies for publishing
+  
+  ---
 
 # Digital Ocean Academy 
 See the currently published content: https://digitalocean.layer5.io/academy
@@ -154,9 +184,4 @@ This will start a local server. You can view your content and check for formatti
 Once your content is complete and tested locally:
 
 1.  Push all your changes to your forked repository on GitHub.
-2.  **[Connect](https://layer5.io/company/contact) the Layer5 Team** via Slack, email, or by opening a GitHub issue.
-3.  Provide the URL to your content repository.
-
-A Layer5 administrator will then integrate your repository into the main Academy platform. After integration, your learning paths will be visible on the official [Layer5 Cloud site](https://cloud.layer5.io/academy/overview).
-
-
+2.  Point new learners to your repo; fork and run locally.
