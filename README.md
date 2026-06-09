@@ -14,7 +14,7 @@
 
 - Structured, production-ready reference material
 - Markdown-based authoring with live local preview
-- Runs on the shared Layer5 Academy platform
+- Runs on the shared Meshery Academy platform
 - Supports learning paths, challenges, and certifications
   
    ---
@@ -29,9 +29,8 @@
   
   ---
 
-# Digital Ocean Academy 
-See the currently published content: https://digitalocean.layer5.io/academy
-Academy orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
+## Digital Ocean Academy 
+See the currently published content: https://meshery-extensions/github.io/digitalocean-academy under academy orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
 
 This repository is a starter template for creating custom learning paths and courses using Meshery as the content authoring and delivery platform. It provides the necessary file structure and a working example to help you get started quickly.
 
@@ -42,7 +41,7 @@ This guide will walk you through setting up your own content repository, creatin
 Before you begin, ensure you have the following installed on your system:
 
   * [**Hugo**](https://gohugo.io/getting-started/installing/) (extended version) （version 0.147.9）
-  * [**Go**](https://go.dev/doc/install) （version 1.12）
+  * [**Go**](https://go.dev/doc/install) （version 1.26）
 
 ## Getting Started
 
@@ -52,11 +51,11 @@ Follow these steps to create your own learning path using this template.
 
 First, create a copy of this repository under your own GitHub account.
 
-  - **Fork** this [academy-example](https://github.com/layer5io/academy-example) repository.
+  - **Fork** this [digitalocean-academy](https://github.com/meshery-extensions/digitalocean-academy) repository.
   - Clone your forked repository:
     ```bash
     # Replace <your-username> with your GitHub username
-    git clone https://github.com/<your-username>/academy-example.git
+    git clone https://github.com/<your-username>/digitalocean-academy.git
     cd academy-example
     ```
 
@@ -65,7 +64,7 @@ First, create a copy of this repository under your own GitHub account.
   - Open the `go.mod` file at the root of the project.
   - Change the first line from:
     ```go
-    module github.com/layer5io/academy-example
+    module github.com/meshery-extensions/digitalocean-academy
     ```
   - To match your repository's path:
     ```go
