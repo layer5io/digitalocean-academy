@@ -1,12 +1,11 @@
 
 # Digital Ocean Academy 
-See the currently published content - https://cloud.layer5.io/academy?orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
+See the currently published content: https://digitalocean.layer5.io/academy
+Academy orgId=3e2f9c82-1a4c-4781-adf9-99ec22cd994e
 
-This repository is a starter template for creating custom learning paths and courses on the [Layer5 Academy](https://cloud.layer5.io/academy/overview). It provides the necessary file structure and a working example to help you get started quickly.
+This repository is a starter template for creating custom learning paths and courses using Meshery as the content authoring and delivery platform. It provides the necessary file structure and a working example to help you get started quickly.
 
 This guide will walk you through setting up your own content repository, creating courses, and previewing them locally.
-
-> For more in-depth documentation, see the official [Layer5 Academy docs](https://docs.layer5.io/cloud/academy/).
 
 ## Prerequisites
 
