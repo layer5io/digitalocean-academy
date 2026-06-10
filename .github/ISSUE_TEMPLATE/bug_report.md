@@ -28,7 +28,5 @@ assignees: ''
 
 ---
 #### Contributor Guide and Resources
-- 📚 [Instructions for contributing to academy-example](https://github.com/layer5io/academy-example/blob/master/CONTRIBUTING.md)
-   - academy-template documentation [site](https://docs.layer5.io/cloud/academy/), [example](https://github.com/layer5io/academy-example/) and [theme](https://github.com/layer5io/academy-theme/)
-- 🎨 Wireframes and [designs for Layer5 site](https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/GvB8SudhEOoq3JOvoLaoMs)
-- 🙋🏾🙋🏼 Questions: [Layer5 Discussion Forum](https://discuss.layer5.io) and [Layer5 Community Slack](http://slack.layer5.io)
+- 📚 [Instructions for contributing to digitalocean-academy](https://github.com/layer5io/digitalocean-academy/blob/master/CONTRIBUTING.md)
+- 🙋🏾🙋🏼 Questions: [Discussion Forum](https://messhery.io/community#discussion-forums) and [Community Slack](http://slack.meshery.io)
