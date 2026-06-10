@@ -18,26 +18,37 @@ include .github/build/Makefile.show-help.mk
 #----------------------------------------------------------------------------
 # Academy
 # ---------------------------------------------------------------------------
-.PHONY: setup build site clean check-go theme-update
+.PHONY: setup build site serve clean check-go check-deps theme-update
 
 ## ------------------------------------------------------------
 ----LOCAL_BUILDS: Show help for available targets
 	
 ## Local: Install site dependencies
 setup:
-	 npm i
+	npm install
+
+## Validate npm and local Hugo binary before execution
+check-deps:
+	@echo "Checking dependencies..."
+	@command -v npm > /dev/null || (echo "npm is not installed. Please install Node.js."; exit 1)
+	@npm ls hugo-extended > /dev/null || (echo "hugo-extended is not installed. Run 'make setup' first."; exit 1)
+	@echo "Dependencies are satisfied."
 
 ## Local: Build site for local consumption
-build:
-	hugo build
+build: check-deps
+	npm run dev:build
 
 ## Local: Build and run site locally with draft and future content enabled.
-site: check-go
-	hugo server -D -F
+site: check-go check-deps
+	npm run dev:site
+
+## Local: Build and run site locally
+serve: check-go check-deps
+	npm run dev:serve
 	
 ## Empty build cache and run on your local machine.
-clean: 
-	hugo --cleanDestinationDir
+clean: check-deps
+	npm run dev:clean
 	make site
 
 ## ------------------------------------------------------------
@@ -49,6 +60,6 @@ check-go:
 	@echo "Go is installed."
 
 ## Update the academy-theme package to latest version
-theme-update:
+theme-update: check-deps
 	echo "Updating to latest academy-theme..." && \
-	hugo mod get github.com/layer5io/academy-theme
+	npm run dev:theme-update

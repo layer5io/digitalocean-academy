@@ -41,7 +41,7 @@ This guide will walk you through setting up your own content repository, creatin
 
 Before you begin, ensure you have the following installed on your system:
 
-  * [**Hugo**](https://gohugo.io/getting-started/installing/) (extended version) （version 0.147.9）
+  * [**Node.js**](https://nodejs.org/en/download/) (v18 or higher)
   * [**Go**](https://go.dev/doc/install) （version 1.12）
 
 ## Getting Started
@@ -169,13 +169,14 @@ title="Video: Example" */>}}
 
 ### 6. Local Development
 
-To preview your content locally, run the Hugo server from the project root:
+To preview your content locally, first install the necessary dependencies and then run the development server from the project root:
 
 ```bash
-hugo server
+make setup
+make site
 ```
 
-This will start a local server. You can view your content and check for formatting issues before publishing.
+This will install a local, npm-managed version of Hugo and start the local server. You can view your content and check for formatting issues before publishing.
 
 > The local preview uses basic styling. Full Academy branding and styles will be applied after your content is integrated into the cloud platform.
 
