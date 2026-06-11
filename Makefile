@@ -27,12 +27,12 @@ include .github/build/Makefile.show-help.mk
 setup:
 	npm install
 
-## Validate npm and local Hugo binary before execution
+## Verify required commands and local dependencies are present.
 check-deps:
-	@echo "Checking dependencies..."
-	@command -v npm > /dev/null || (echo "npm is not installed. Please install Node.js."; exit 1)
-	@npm ls hugo-extended > /dev/null || (echo "hugo-extended is not installed. Run 'make setup' first."; exit 1)
-	@echo "Dependencies are satisfied."
+	@echo "Checking if 'npm' and local 'hugo' binary are present..."
+	@command -v npm > /dev/null || { echo "Error: 'npm' not found. Please install Node.js and npm."; exit 1; }
+	@test -x node_modules/.bin/hugo || { echo "Error: Hugo binary not found in node_modules. Please run 'make setup' first."; exit 1; }
+	@echo "Dependencies check passed."
 
 ## Local: Build site for local consumption
 build: check-deps
