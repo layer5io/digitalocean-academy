@@ -35,6 +35,8 @@ mesheryctl design import \
   -s "Kubernetes Manifest"
 ```
 
+{{< meshery-design-embed src="embedded-design-gpu-observability-stack.yaml.js" id="embedded-design-5fd46681-8e21-4d96-8f73-4aa5bfcc14ea" size="full" >}}
+
 The exporter publishes metrics such as `DCGM_FI_DEV_GPU_UTIL` on port 9400 for Prometheus to scrape.
 
 ## Connecting Prometheus to Meshery

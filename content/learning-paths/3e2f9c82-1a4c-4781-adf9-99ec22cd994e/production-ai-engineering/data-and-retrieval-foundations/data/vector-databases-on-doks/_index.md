@@ -70,6 +70,8 @@ mesheryctl design import \
   -s "Kubernetes Manifest"
 ```
 
+{{< meshery-design-embed src="embedded-design-qdrant-vector-db.yaml.js" id="embedded-design-308fc4dd-ea80-49d7-992b-0e3965e1355f" size="full" >}}
+
 ## Connecting Your Application
 
 Once Qdrant is running on DOKS, connect from your application using the official client:

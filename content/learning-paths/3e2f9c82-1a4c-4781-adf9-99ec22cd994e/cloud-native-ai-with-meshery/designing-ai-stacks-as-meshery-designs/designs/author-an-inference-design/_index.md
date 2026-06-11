@@ -104,6 +104,8 @@ mesheryctl design import \
   -s "Kubernetes Manifest"
 ```
 
+{{< meshery-design-embed src="embedded-design-vllm-inference-stack.js" id="embedded-design-c9dcbd0b-b39d-4584-846c-bc2c97a2df4f" size="full" >}}
+
 Two companion designs live alongside it: `qdrant-vector-db.yaml` (a vector database for RAG) and `gpu-observability-stack.yaml` (GPU metrics for Prometheus/Grafana). See the [`designs/` directory](https://github.com/layer5io/digitalocean-academy/tree/master/designs) for all three and their import instructions.
 
 ## Next Steps
