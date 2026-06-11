@@ -73,6 +73,8 @@ Please contribute! Layer5 documentation uses Jekyll and GitHub Pages to host doc
 `git checkout -b <my-changes>`
 1. Edit/add documentation.
 `vi <specific page>.md`
+1. Install dependencies.
+`make setup`
 1. Run site locally to preview changes.
 `make site`
 1. Commit, [sign-off](#commit-signing), and push changes to your remote branch.

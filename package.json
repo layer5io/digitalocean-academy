@@ -10,12 +10,17 @@
   "bugs": "https://github.com/google/docsy-example/issues",
   "spelling": "cSpell:ignore docsy hugo htmltest precheck postbuild rtlcss -",
   "scripts": {
+    "dev:build": "npm run _hugo-dev",
+    "dev:clean": "npm run _hugo",
+    "dev:site": "npm run _hugo-dev -- server",
+    "dev:serve": "npm run _hugo-dev -- server --watch=false",
+    "dev:theme-update": "hugo mod get github.com/layer5io/academy-theme",
     "_build": "npm run _hugo-dev --",
     "_check:links": "echo IMPLEMENTATION PENDING for check-links; echo",
     "_hugo": "hugo --cleanDestinationDir",
-    "_hugo-dev": "npm run _hugo -- -e dev -DFE",
-    "_local": "npx cross-env HUGO_MODULE_WORKSPACE=docsy.work",
-    "_serve": "npm run _hugo-dev -- --minify serve --renderToMemory",
+    "_hugo-dev": "hugo --cleanDestinationDir -e dev -DFE",
+    "_local": "cross-env HUGO_MODULE_WORKSPACE=docsy.work",
+    "_serve": "npm run _hugo-dev -- server --minify --renderToMemory",
     "build:preview": "npm run _hugo-dev -- --minify --baseURL \"${DEPLOY_PRIME_URL:-/}\"",
     "build:production": "npm run _hugo -- --minify",
     "build": "npm run _build -- ",
@@ -32,7 +37,7 @@
     "test": "npm run check:links",
     "update:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",
     "update:hugo": "npm install --save-dev --save-exact hugo-extended@latest",
-    "update:pkgs": "npx npm-check-updates -u"
+    "update:pkgs": "npm exec npm-check-updates -u"
   },
   "devDependencies": {
     "autoprefixer": "^10.5.0",
